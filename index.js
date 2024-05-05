@@ -12,7 +12,7 @@ const port = process.env.PORT || 9000
 server.use(express.json())
 
 server.get('/api/hello', (req, res)=>{
-    res.json({message: 'the api is working'})
+    res.json({message: 'the api is working....'})
 })
 
 server.use('*', (req, res)=>{
